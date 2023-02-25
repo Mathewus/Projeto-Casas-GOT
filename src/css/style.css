@@ -1,0 +1,56 @@
+body{
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+}
+.tabela {
+    background-color: #FFFFFF;
+    margin: 3% auto;
+    border: 2px solid; 
+    width: 700px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tabela th{
+    padding: 20px;
+    background-color: #753030;
+    color: #FFFFFF;
+    font-size: 14pt;
+}
+
+.tabela th ,td{
+    border: 1px solid;
+    overflow: hidden;
+}
+
+.tabela .lemas{
+    font-style: italic;
+}
+
+.tabela img {
+    width: 80px;
+    height: 80px;
+    padding: 14px;
+    transition: all .2s linear;
+}
+.tabela img:hover {
+    transform: scale(1.3);
+}
+ul{
+    list-style: none;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tabela #stark{
+    
+}
+.tabela #lannister{
+    background-color: #c70e0e;
+}
+.tabela #targaryen{
+    background-color: #000000;
+}
+.tabela #baratheon{
+    background-color: #f1f109;
+}
